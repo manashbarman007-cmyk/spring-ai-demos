@@ -7,7 +7,7 @@ It is designed to run as a **stdio-based MCP server** (non-web application) with
 
 ## 🚀 Features
 - **Shopping Cart Backend**:
-  - Add and remove cart items
+  - Add and get cart items
   - Persist cart state in MySQL
   - Ready for integration with MCP clients
 - **Database Integration**:
