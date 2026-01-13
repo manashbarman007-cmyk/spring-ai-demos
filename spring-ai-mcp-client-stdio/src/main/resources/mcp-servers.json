@@ -1,0 +1,9 @@
+
+{
+    "mcpServers": {
+      "stdio-mcp-server" : {
+         "command" : "D:/Software/jdk-17.0.12/bin/java",
+         "args" : ["-jar", "D:/Workspace/spring-ai-workspace/spring-ai-mcp-server-stdio/target/mcp-server-stdio.jar"]
+        }
+    }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "studentId": "STU001",
+    "name": "Riya Sharma",
+    "grade": 5,
+    "age": 10,
+    "hobbies": ["painting", "cycling", "reading"]
+  },
+  {
+    "studentId": "STU002",
+    "name": "Arjun Das",
+    "grade": 6,
+    "age": 11,
+    "hobbies": ["football", "video games", "chess"]
+  },
+  {
+    "studentId": "STU003",
+    "name": "Meera Patel",
+    "grade": 4,
+    "age": 9,
+    "hobbies": ["dancing", "singing", "gardening"]
+  },
+  {
+    "studentId": "STU004",
+    "name": "Kabir Sen",
+    "grade": 7,
+    "age": 12,
+    "hobbies": ["basketball", "coding", "swimming"]
+  }
+]
