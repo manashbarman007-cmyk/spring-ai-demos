@@ -4,7 +4,6 @@ import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import in.sp.main.entity.ShoppingCart;
 import in.sp.main.repo.ShoppingCartRepo;
 
@@ -22,11 +21,11 @@ public class DatabaseTool {
 		return repo.save(shoppingCart);
 	}
 	
-	@Tool(description = "This tool fetches the ShoppingCart object from the database by the customers name")
-	public ShoppingCart getCartDetailsByCustomer(
+	@Tool(description = "This tool fetches the all ShoppingCart object from the database by the customers name")
+	public List<ShoppingCart> getCartDetailsByCustomer(
 			@ToolParam(description = "Name of the customer to be obtained", required = true) String customer
 			) {
-		return repo.findByCustomer(customer).orElseThrow(() -> new RuntimeException("No such item"));
+		return repo.findByCustomer(customer);
 	}
 	
 }
